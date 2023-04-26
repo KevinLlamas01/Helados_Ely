@@ -1,0 +1,93 @@
+body {
+	background-color: #A3E4D7;
+	}
+	
+	
+	/*Es el color de las letras del logo*/
+	.navbar-brand{
+	color: black;
+	}
+	/*Es la imagen del logo*/
+	.logo{
+	width: 60px;
+	height: 60px;
+	}
+	/*Tipo de letra*/
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	.tipole{
+		font-family: 'Roboto', sans-serif;
+	}
+	.row .fts{
+		width: 100px;
+		height: 100px;
+	}
+	.fotos{
+		width: 31%;
+		height: 100%;
+	}
+	.fts{
+		width: 31%;
+		height: 100%;
+	}
+	/*Cuerpo*/
+	
+	
+	.todo{
+		background-color: pink;
+	}
+	
+	
+	/*admin*/
+	
+	
+	.lista{
+	
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 22px;
+		margin-top: 30px;
+		width: 290px;
+		height: 290px;
+		border: 2px solid red;
+		border-radius: 5px;
+		color: black;
+	
+	
+	}
+	
+	.a{
+		text-decoration: none;
+	}
+	.lista{
+		background-color: #e6ee9c;
+	}
+	.ft{
+		width: 20%;
+		height: 20%;
+	}
+	.sn{
+		width:50%;
+		height:50%;
+	}
+	.card{
+		margin-left: 20% ;
+	}
+.img_cat{
+height:200px;
+width: 100%;
+
+}
+.container uno{
+	display: flex;
+	margin-top: 30px;
+}
+.img_popular{
+	height:500px ;
+	width:700px;
+}
+.letra{
+font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 20;
+}
