@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>puede servir</title>
+</head>
+<body>
+<select class="form-select" aria-label="Default select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+<!--para lo del jquery-->
+<!--ejercicio_imagenes-->
+<!--primero se abre html normal-->
+<!--se escribe un -->
+  
+  
+  <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+  <!--despues
+  en el body -->
+  
+  <body>
+    <img id="foto_principal" width="400px" height="300px" src="y aqui la imagen">
+     <!--para poner debajo de la imagen otra
+    y cambiar la img con las 3 en clase fotos -->
+   
+    <img class="fotos" src="y las mismas imagen de arriba">
+    <img class="fotos" src="y las mismas imagen de arriba">
+    <img class="fotos" src="y las mismas imagen de arriba">
+  </body>
+  <!--fuera del body -->
+
+  <script type="text/javascript">
+    $(".fotos").on("click", function(){
+      var ruta=$(this).attr("src")
+      $("#foto_principal").attr("src",ruta)
+    })
+  </script>
+
+</select>
+</body>
+</html>
